@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../dist/output.css" rel="stylesheet">
+    <link href="../input.css" rel="stylesheet">
+    <link href="../all.css" rel="stylesheet">
+    <link href="../all.min.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <div class="parent absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3/4">
+        <div class="login w-full flex justify-center items-center flex-col">
+            <h2 class="text-5xl font-semibold my-6">Login</h2>
+            <form id="loginForm" class="w-1/2 flex flex-col justify-center">
+                <div class="email my-6 flex flex-col justify-center">
+                    <label for="email" class="my-3 text-start w-fit">Email address:</label>
+                    <input type="text" class="border border-solid bg-[#eee] outline-none px-2" id="email" required>
+                </div>
+                <div class="password my-6 flex flex-col justify-center">
+                    <label for="password" class="my-3 text-start w-fit">Password:</label>
+                    <input type="password" class="border border-solid bg-[#eee] outline-none px-2" id="password" required>
+                </div>
+                <p class="my-3 text-center">Don't have an account yet? <a href="register.html" class="block text-xl font-bold text-[#D90429]">Sign up here</a></p>
+                <button type="submit" class="bg-blue-500 text-white rounded px-5 py-2 w-fit m-auto">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>

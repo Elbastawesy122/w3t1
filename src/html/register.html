@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../dist/output.css" rel="stylesheet">
+    <link href="../input.css" rel="stylesheet">
+    <link href="../all.css" rel="stylesheet">
+    <link href="../all.min.css" rel="stylesheet">
+    <title>Register</title>
+</head>
+<body>
+    <div class="parent absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3/4">
+        <div class="Register w-full flex justify-center items-center flex-col">
+            <h2 class="text-5xl font-semibold my-6">Register</h2>
+            <form id="registerForm" class="w-1/2 flex flex-col justify-center">
+                <div class="username my-6 flex flex-col justify-center">
+                    <label for="username" class="my-3 text-start w-fit">Username:</label>
+                    <input type="text" id="username" class="border border-solid bg-[#eee] outline-none px-2" required>
+                </div>
+                <div class="email my-6 flex flex-col justify-center">
+                    <label for="email" class="my-3 text-start w-fit">Email:</label>
+                    <input type="email" id="email" class="border border-solid bg-[#eee] outline-none px-2" required>
+                </div>
+                <div class="password my-6 flex flex-col justify-center">
+                    <label for="password" class="my-3 text-start w-fit">Password:</label>
+                    <input type="password" id="password" class="border border-solid bg-[#eee] outline-none px-2" required>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white rounded px-5 py-2 w-fit m-auto">Register</button>
+            </form>
+            <p class="my-3 text-center" >Already have an account? <a href="index.html" class="block text-xl font-bold text-[#D90429]">Login here</a></p>
+        </div>
+    </div>
+    <script src="../js/register.js"></script>
+</body>
+</html>

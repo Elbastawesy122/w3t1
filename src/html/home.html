@@ -1,0 +1,93 @@
+<!DOCTYPE htD90429ml>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../dist/output.css" rel="stylesheet">
+    <link href="../input.css" rel="stylesheet">
+    <link href="../all.css" rel="stylesheet">
+    <link href="../all.min.css" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <div class="contioner mx-20">
+        <div class="home my-3">
+            <nav class="flex justify-between items-center">
+                <i class="fa-solid fa-bars"></i>
+                <h1 class="text-3xl font-mono text-[#D90429] font-bold">Sushi</h1>
+                <div class="option flex justify-around items-center gap-4">
+                    <p class="text-[#928D8D] hover:text-[#] font-semibold cursor-pointer">Home</p>
+                    <p class="text-[#928D8D] hover:text-[#D90429] font-semibold cursor-pointer">Menu</p>
+                    <p class="text-[#928D8D] hover:text-[#D90429] font-semibold cursor-pointer">Services</p>
+                    <p class="text-[#928D8D] hover:text-[#D90429] font-semibold cursor-pointer">Contact</p>
+                </div>
+                <div class="icon flex justify-around items-center gap-3 text-[#D90429]">
+                    <i class="fa-solid fa-location-dot cursor-pointer"></i>
+                    <i class="fa-solid fa-cart-shopping cursor-pointer" id="cartIcon"></i>
+                    <h3 id="buttonlog" class="bg-[#D90429] text-[white] py-2 px-4 rounded cursor-pointer">Log out</h3>
+                </div>
+            </nav>
+            <section class="frame1 flex justify-between items-center gap-3">
+                <div class="about">
+                    <h1 class="text-5xl font-semibold">Taste The Difference <span class="text-5xl font-mono text-[#D90429]">Sushi</span> Ever!</h1>
+                    <p class="text-[#928D8D] text-2xl my-4">High Quality, High Tasty, Low Price</p>
+                    <p class="text-[#D90429] text-2xl my-4 font-bold">FEEL LIKE THE SEA!</p>
+                    <div class="click flex justify-start gap-3 my-4">
+                        <button class="py-3 px-7 bg-[#D90429] font-bold text-white rounded">Order Now!</button>
+                        <button class="text-[#D90429] py-3 px-7 border-2 border-solid divide-[#D90429] font-bold rounded">View Menu</button>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="../image/Screenshot_2024-10-12_175500-removebg-preview.png" class="-rotate-6 w-80">
+                </div>
+            </section>        
+            <section class="menu">
+                <div class="address flex justify-between items-center my-6">
+                    <h1 class="text-3xl font-bold">Special Menu For You!</h1>
+                    <div class="option text-[#928D8D] flex justify-center items-center gap-3 font-bold">
+                        <p class="text-[#D90429]">All</p>
+                        <p>Sushi</p>
+                        <p>Noodells</p>
+                        <p>Soup</p>
+                    </div>
+                </div>
+                <div id="productList" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <div class="boxes flex justify-between">
+            <div class="option">
+                <h3>Join To Us</h3>
+                <p class="email">Enter Your Email</p>
+                <div class="icon flex justify-center items-center gap-3 text-2xl cursor-pointer text-[#D90429]">
+                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                </div>
+            </div>
+            <div class="option">
+                <h3>Services</h3>
+                <p>Online Order</p>
+                <p>Locations</p>
+            </div>
+            <div class="option">
+                <h3>About</h3>
+                <p>Our Story</p>
+                <p>Carrer</p>
+                <p>Our Chefs</p>
+            </div>
+            <div class="option">
+                <h3>Help</h3>
+                <p>Contact</p>
+                <p>Support</p>
+                <p>FAQ</p>
+            </div>
+        </div>
+        <p class="made">@2024 MADE BY ELBASTAWESY.</p>
+    </footer>
+
+    <script src="../js/home.js"></script>
+</body>
+</html>
